@@ -1,7 +1,7 @@
 # MEMORY.md — MEMÓRIA VIVA DO PROJETO AWAKEGUARD
 
 > Fonte única de contexto para qualquer IA (Gemini/Antigravity, Claude, ChatGPT, etc.) ou desenvolvedor que atuar neste projeto.
-> **Última atualização:** 2026-10-28 · **Versão do sistema:** v1.1.0 · **Status:** APK Debug compilado e assinado + Web Companion PWA ativo.
+> **Última atualização:** 2026-10-30 · **Versão do sistema:** v1.1.1 · **Status:** Repositório oficial publicado no GitHub (`rodrigoarsp/awakeguard`).
 
 ---
 
@@ -290,5 +290,6 @@ O companion web funciona como bancada de testes interativa para validação de l
 
 | Data | Versão | O quê foi implementado / corrigido |
 | :--- | :--- | :--- |
+| **2026-10-30** | v1.1.1 | **Publicação do Projeto no GitHub:**<br>1. Inicialização do repositório Git e criação do repositório público `rodrigoarsp/awakeguard` via GitHub CLI.<br>2. Adição de `.gitignore` otimizado para Android/Gradle, `README.md` completo com arquitetura e manual de build, e licença MIT.<br>3. Push da branch `main` com tracking remoto configurado. |
 | **2026-10-28** | v1.1.0 | **Adição de Novas Funções Inerentes e Previsão do Tempo:**<br>1. Criado `TypingMissionEngine.kt` e `TypingMission` no web companion para digitação de frases motivacionais com normalização de acentos Unicode.<br>2. Criado `WeatherRepository.kt` e `src/weather.js` integrando a API REST do Open-Meteo para previsão meteorológica em tempo real (temperatura, umidade, vento, código WMO traduzido).<br>3. Criado `morningBriefing.js` com síntese de voz TTS matinal apresentando hora, clima, sequência de dias e frase de incentivo.<br>4. Suíte de testes unitários `MissionEngineTest.kt` validando todas as missões (Math, Memory, Typing).<br>5. Compilação do APK debug final concluída com sucesso (11.97 MB) em `app/build/outputs/apk/debug/app-debug.apk`. |
 | **2026-10-28** | v1.0.0 | **Criação Inicial do Sistema AwakeGuard Baseado na Engenharia Reversa do Alarmy:**<br>1. Estruturação completa do app nativo Kotlin/Compose com `AlarmForegroundService`, `AlarmScheduler` (`setAlarmClock`), `AntiPowerOffAccessibilityService`, `DeviceAdminGuardReceiver` e `FallBackAsleepReceiver`.<br>2. Criação do simulador interativo web companion `awakeguard-web` com sintetizador Web Audio API e missões motoras/cognitivas. |
