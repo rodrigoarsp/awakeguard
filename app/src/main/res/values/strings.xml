@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AwakeGuard</string>
+    <string name="accessibility_service_name">AwakeGuard Anti-Desligamento</string>
+    <string name="accessibility_service_description">Impede que o menu de desligamento do sistema seja acionado ou que o aplicativo seja fechado durante o toque ativo do alarme.</string>
+    <string name="device_admin_description">Protege o AwakeGuard contra desinstalação acidental ou desonesta enquanto o alarme estiver armado.</string>
+    <string name="alarm_notification_channel_name">Alarmes Críticos</string>
+    <string name="alarm_notification_channel_desc">Canal de alta prioridade para disparar alarmes e missões de despertar</string>
+    <string name="alarm_notification_title">AwakeGuard Despertador</string>
+    <string name="alarm_notification_content">Alarme tocando! Complete a missão para desligar.</string>
+    <string name="fallback_notification_title">Você ainda está acordado?</string>
+    <string name="fallback_notification_content">Toque aqui em até 3 minutos ou o alarme tocará novamente com volume máximo!</string>
+</resources>
